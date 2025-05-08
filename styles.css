@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+#gallery img {
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+  transform: scale(1.1);
+}
+
+#validationMessage {
+  color: red;
+  font-size: 14px;
+}
+
+h1 {
+  color: #333;
+}
